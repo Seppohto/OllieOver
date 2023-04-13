@@ -26,9 +26,7 @@ Get-Content -Path ~/.ssh/id_rsa.pub | Clip
 Now you can use SSH with Git.
 
 ## Quick Git Push Command
-If you want to push changes quickly, use the following command in Bash:
-
-
+If you want to push changes quickly, use the following command:
 ```powershell
 git add . ; if ($?) { git commit } ; git pull ; if ($?) { git push }
 ```
