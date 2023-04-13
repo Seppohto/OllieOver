@@ -6,14 +6,14 @@ If you're using Windows 11, SSH should be installed automatically. Here's how yo
 Get-ChildItem -Path ~/.ssh/id_rsa.pub
 ```
 ## Generate a key
-```
+```powershell
 ssh-keygen.exe
 ```
 You can click enter multiple times to accept the default settings, or choose a passphrase and other options.
 
 ## Copy the key
 
-```
+```powershell
 Get-Content -Path ~/.ssh/id_rsa.pub | Clip
 ```
 ## Add the key to GitHub
@@ -29,7 +29,7 @@ Now you can use SSH with Git.
 If you want to push changes quickly, use the following command in Bash:
 
 
-```
+```powershell
 git add . ; if ($?) { git commit } ; git pull ; if ($?) { git push }
 ```
 This command will add all the files, commit changes, pull from the remote repository, and push the changes to the remote repository.
