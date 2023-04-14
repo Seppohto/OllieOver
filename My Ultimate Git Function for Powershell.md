@@ -1,4 +1,4 @@
-# The Ultimate Git Function for PowerShell: GitGud
+# My Ultimate Git Function for PowerShell: GitGud
 GitGud is a simple yet powerful PowerShell function that streamlines your Git workflow by executing the commands **git add .**, **git commit**, **git pull**, and **git push** all in one go. This guide will walk you through the process of creating and using the GitGud function in your PowerShell environment.
 
 ## Why these commands?
