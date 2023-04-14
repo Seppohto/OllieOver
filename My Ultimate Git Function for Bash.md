@@ -1,16 +1,16 @@
-# My Ultimate Git Function for Bash: GitGud
+# Our Ultimate Git Function for Bash: GitGud
 GitGud is a simple yet powerful Bash function that streamlines your Git workflow by executing the commands git add ., git commit, git pull, and git push all in one go. This guide will walk you through the process of creating and using the GitGud function in your Bash environment.
 
 ## Add the GitGud Function to Your Bash Profile
 1. Open your Bash profile (.bashrc or .bash_profile) in a text editor (e.g., nano, vim) by running one of the following commands:
 ```bash
-nano ~/.bashrc
+vim ~/.bashrc
 ```
 
 or
 
 ```bash
-nano ~/.bash_profile
+vim ~/.bash_profile
 ```
 2. Add the GitGud function to your Bash profile:
 ```bash
