@@ -4,7 +4,7 @@ The **FullPwd** function is a simple PowerShell function that displays the full 
 
 ## Create a PowerShell Profile (If you don't have one)
 
-If you haven't already created a PowerShell profile, follow steps [here](https://github.com/Seppohto/OllieOver/blob/main/Creating%20a%20PowerShell%20Profile%20and%20Adding%20a%20HelloWorld%20Function.md) to create it.
+If you haven't already created a PowerShell profile, follow steps [here](https://github.com/Seppohto/OllieOver/blob/main/Creating%20a%20PowerShell%20Profile%20and%20Adding%20a%20HelloWorld%20Function.MD) to create it.
 
 ## Add the FullPwd Function to Your Profile
 
