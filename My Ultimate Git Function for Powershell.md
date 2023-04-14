@@ -14,23 +14,16 @@ GitGud is a simple yet powerful PowerShell function that streamlines your Git wo
 By combining these Git commands into a single PowerShell function called 'gitgud', you can streamline your Git workflow and save time. Instead of running each command individually, you can execute the entire sequence of commands with just one function call. This simplifies the process of committing and sharing changes, making it more efficient and user-friendly.
 
 ## Create a PowerShell Profile (If you don't have one)
-1. Open PowerShell.
-2. Check if you have a PowerShell profile by running the following command:
-```powershell
-Test-Path $PROFILE
-```
 
-If the result is False, you don't have a profile yet, and you need to create one using the command:
-```powershell
-New-Item -ItemType File -Path $PROFILE -Force
-```
+If you haven't already created a PowerShell profile, follow steps [here](https://github.com/Seppohto/OllieOver/blob/main/Creating%20a%20PowerShell%20Profile%20and%20Adding%20a%20HelloWorld%20Function.md) to create it.
 
 ## Add the GitGud Function to Your Profile
-3. Open your PowerShell profile in a text editor (e.g., Notepad) by running the following command:
+
+1. Open your PowerShell profile in a text editor (e.g., Notepad) by running the following command:
 ```powershell
 notepad.exe $PROFILE
 ```
-4. Add the GitGud function to your PowerShell profile:
+2. Add the GitGud function to your PowerShell profile:
 ```powershell
 function gitgud {
     param(
@@ -52,10 +45,11 @@ function gitgud {
     }
 }
 ```
-5. Save the changes to the profile and close the text editor.
-6. Restart your PowerShell session for the changes to take effect.
+3. Save the changes to the profile and close the text editor.
+4. Restart your PowerShell session for the changes to take effect.
 
 ## Using the GitGud Function
+
 Now that you have the GitGud function in your PowerShell profile, you can use it in the following ways:
 
 - To perform **git add .**, **git commit**, **git pull**, and **git push** with a commit message:
