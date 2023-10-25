@@ -12,5 +12,5 @@ git config --local -e
 add a line 
 ```powerwshell
 [core]
-    sshCommand = ssh -i ~/.ssh/id_rsa_metso
+    sshCommand = ssh -i ~/.ssh/id_rsa_yourkey
 ```
